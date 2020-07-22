@@ -1,8 +1,25 @@
-import React from 'react'
-import { Text } from 'react-native'
+import React, {useState, useEffect} from 'react'
+import { MainContainer } from './style'
+import { ScrollView } from 'react-native'
+import { PrimaryButton } from '../../components'
 
 export default() => {
+
+  const isPressed = () => {
+    console.warn('clicked')
+  }
+
   return(
-    <Text>Home</Text>
+    <ScrollView>
+
+      <MainContainer>
+        <PrimaryButton 
+          label="Click here"
+          onpress={isPressed}
+        />
+      </MainContainer>
+
+    </ScrollView>
+
   )
 }
