@@ -12,7 +12,7 @@ function Routes() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="ProfileScreen" 
+        initialRouteName="HomeScreen" 
       >
         {
           routesLists.map((each,key)=>( 
