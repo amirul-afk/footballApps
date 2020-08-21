@@ -45,7 +45,7 @@ export default () => {
               <TeamNameText align="right">{each.homeTeam.name}</TeamNameText>
             </TeamContainer>
             <DetailContainer>
-              <MatchText>{each.score.fullTime.homeTeam}</MatchText>
+              <MatchText>{each.score.fullTime.homeTeam} </MatchText>
             </DetailContainer>
             <DetailContainer>
               <MatchText>-</MatchText>
